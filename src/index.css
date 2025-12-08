@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: #FF9900; /* Force Bloomberg Orange */
+  font-family: 'JetBrains Mono', monospace;
+  overflow: hidden;
+}
+
+/* Force stronger borders */
+.border-terminal-border {
+  border-color: #333333 !important;
+}
+
+/* Make panels distinct */
+.bg-terminal-panel {
+  background-color: #111111 !important;
+}
+
+/* The Scanline Effect - make it subtle but visible */
+.scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0) 50%,
+    rgba(0,0,0,0.1) 50%,
+    rgba(0,0,0,0.1)
+  );
+  background-size: 100% 3px;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.6;
+}
