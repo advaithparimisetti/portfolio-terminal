@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, MapPin, Award } from 'lucide-react';
+import { User, MapPin, Award, FileText } from 'lucide-react';
 
 const AnalystProfile = () => {
   return (
@@ -43,6 +43,17 @@ const AnalystProfile = () => {
           <span className="px-2 py-1 border border-terminal-green text-terminal-green text-[10px] flex items-center gap-1 bg-terminal-green/5">
             <Award size={10} /> GLOBAL CASE WINNER '25
           </span>
+          
+          {/* Resume Badge */}
+          <a 
+            href="https://drive.google.com/file/d/1fpJAQ-3JpK22m2YpEslD-boBgTlsgmPa/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+            className="px-2 py-1 border border-blue-500 text-blue-500 text-[10px] flex items-center gap-1 bg-blue-500/5 hover:bg-blue-500/10 transition-colors cursor-pointer decoration-0"
+          >
+            <FileText size={10} /> RESUME_ACCESS
+          </a>
+
           <span className="px-2 py-1 border border-terminal-dim text-terminal-dim text-[10px]">
             CS UNDERGRAD
           </span>
