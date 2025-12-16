@@ -12,21 +12,24 @@ const CommandBar = () => {
       switch(cmd) {
         case 'HELP':
         case 'MANUAL':
-          openWindow('help'); // Changed from alert()
+          openWindow('help');
           break;
         case 'BIO':
         case 'ABOUT':
-          // You could open a bio modal, or just let them read the left panel
           alert("Analyst Profile is active on Left Monitor.");
           break;
         case 'PROJECTS':
         case 'PORTFOLIO':
-          // Focus is already on center, but we could add highlighting
+          break;
+        case 'REPORTS':   // <--- NEW COMMAND
+        case 'RESEARCH':  // <--- NEW COMMAND
+        case 'DOCS':      // <--- NEW COMMAND
+          openWindow('reports');
           break;
         case 'CONTACT':
         case 'HIRE':
         case 'EMAIL': 
-          openWindow('contact'); // <--- THIS OPENS THE FORM
+          openWindow('contact');
           break;
         case 'LOGOUT':
         case 'EXIT':
@@ -47,7 +50,7 @@ const CommandBar = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={handleCommand}
-        placeholder="ENTER COMMAND (TRY 'CONTACT')..." 
+        placeholder="ENTER COMMAND (TRY 'REPORTS')..." 
         className="bg-transparent border-none outline-none text-orange-500 w-full uppercase placeholder-zinc-700 font-mono text-sm"
         autoFocus
       />
