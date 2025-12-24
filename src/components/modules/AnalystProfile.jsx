@@ -46,7 +46,7 @@ const AnalystProfile = () => {
           
           {/* Resume Badge */}
           <a 
-            href="https://drive.google.com/file/d/1fpJAQ-3JpK22m2YpEslD-boBgTlsgmPa/view?usp=drive_link"
+            href="https://drive.google.com/file/d/10GBrGK1ow3KHAchGccYTxiswRTtxadwy/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
             className="px-2 py-1 border border-blue-500 text-blue-500 text-[10px] flex items-center gap-1 bg-blue-500/5 hover:bg-blue-500/10 transition-colors cursor-pointer decoration-0"
