@@ -17,9 +17,20 @@ export const projects = [
     price: '88.50',
     change: '+2.1%',
     desc: 'Real-time dashboard using LSTM & Random Forest for price forecasting.',
-    tech: ['TensorFlow', 'Scikit-Learn', 'Python'],
+    tech: ['TensorFlow', 'Scikit-Learn', 'Seaborn'],
     link: 'https://github.com/advaithparimisetti/AI-Driven-Stock-Analysis-Portfolio-Management-System-',
     demo: 'https://ai-driven-stock-analysis-portfolio-management-system.streamlit.app/'
+  },
+  {
+    ticker: 'BL-ALLOC', // You can change this ticker
+    name: 'Black-Litterman Sector Allocation Engine',
+    sector: 'Quant',
+    price: '115.20',    // Simulated terminal data
+    change: '+3.8%',    // Simulated terminal data
+    desc: '25-year NIFTY sector allocation framework using Black-Litterman optimization and walk-forward out-of-sample backtesting.',
+    tech: ['Pandas', 'CVXPY', 'PyPortfolioOpt', 'SciPy'], // Update with your actual tech stack
+    link: 'https://colab.research.google.com/drive/1a88eQE0RVeM9Sxw6jSLTKjlKz9WVT9CF?usp=sharing', // Add your GitHub link here
+    demo: 'https://colab.research.google.com/drive/1a88eQE0RVeM9Sxw6jSLTKjlKz9WVT9CF?usp=sharing' // Add a demo link if you have one, or leave as null
   },
   {
     ticker: 'MEMO-AGT',
