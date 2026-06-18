@@ -11,6 +11,17 @@ export const projects = [
     demo: 'https://automated-equity-research-valuation-engine.streamlit.app/'
   },
   {
+    ticker: 'VCM-RISK', // Voluntary Carbon Market - Risk
+    name: 'IEEE Pub: Carbon Market ML Risk Framework',
+    sector: 'ESG Quant',
+    price: '50.00',    // Representing the $50B projected market value
+    change: '+9.4%',   // Simulated terminal data
+    desc: 'IEEE published research proposing an ensemble ML anomaly detection framework and Layer-2 ledger to identify non-compliant assets and ensure settlement integrity in the Voluntary Carbon Market.',
+    tech: ['Python', 'XGBoost', 'TensorFlow', 'Solidity', 'Risk Modeling'], 
+    link: 'https://ieeexplore.ieee.org/document/11542032', // Replace with your actual IEEE Xplore link
+    demo: null 
+  },
+  {
     ticker: 'AI-PORT',
     name: 'AI Portfolio Manager',
     sector: 'Quant',
@@ -67,6 +78,22 @@ export const skills = [
 
 export const reports = [
   {
+    id: 'RPT-IEEE-VCM',
+    title: 'IEEE: Carbon Market ML Risk Framework',
+    category: 'Published Research',
+    date: '2026',
+    summary: 'IEEE published research proposing an ensemble machine learning classifier and Layer-2 blockchain architecture to detect, filter, and immutably record non-compliant carbon credit assets.',
+    link: 'https://ieeexplore.ieee.org/document/11542032' // Replace with your actual IEEE Xplore link
+  },
+  {
+    id: 'RPT-DRREDDY',
+    title: 'Dr. Reddy\'s Laboratories: Research Report',
+    category: 'Equity Research',
+    date: '2024',
+    summary: 'Fundamental analysis of Dr. Reddy\'s US generics growth, biosimilars pipeline, and financial performance metrics.',
+    link: 'https://drive.google.com/file/d/17IS-rMxA91hMV8rG-_e09Hyx31PFL1mW/view?usp=drive_link'
+  },
+  {
     id: 'RPT-GENAI',
     title: 'Generative AI Infrastructure: Capital Cycle Risks',
     category: 'Institutional Research',
@@ -97,13 +124,5 @@ export const reports = [
     date: '2020-2024',
     summary: 'Quantitative study linking aggregate population mood (via Spotify valence) to Nifty 50 returns, exploring behavioral finance in emerging markets.',
     link: 'https://drive.google.com/file/d/1pgZ58UEGUTXTKotfapLR0wbeEuPIOPio/view?usp=drive_link'
-  },
-  {
-    id: 'RPT-DRREDDY',
-    title: 'Dr. Reddy\'s Laboratories: Research Report',
-    category: 'Equity Research',
-    date: '2024',
-    summary: 'Fundamental analysis of Dr. Reddy\'s US generics growth, biosimilars pipeline, and financial performance metrics.',
-    link: 'https://drive.google.com/file/d/17IS-rMxA91hMV8rG-_e09Hyx31PFL1mW/view?usp=drive_link'
-  }
+  }  
 ];
