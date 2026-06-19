@@ -1,5 +1,16 @@
 export const projects = [
   {
+  ticker: 'SAMPADA',
+  name: 'SAMPADA',
+  sector: 'FinTech',
+  price: '145.00',
+  change: '+8.7%',
+  desc: 'Global equity research workspace covering 14+ markets with DCF/comps valuation, peer benchmarking, FinBERT sentiment, analyst consensus, football fields, model validation, and one-click pitchbook generation.',
+  tech: ['Python', 'FastAPI', 'React', 'Firebase', 'FinBERT', 'Vercel'],
+  link: 'https://github.com/advaithparimisetti/sampada',
+  demo: 'https://sampada-xi.vercel.app/'
+},
+  {
     ticker: 'EQTY-ENG',
     name: 'Automated Equity Research Engine',
     sector: 'FinTech',
