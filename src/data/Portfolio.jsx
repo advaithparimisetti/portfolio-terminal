@@ -11,15 +11,15 @@ export const projects = [
   demo: 'https://sampada-xi.vercel.app/'
 },
   {
-    ticker: 'EQTY-ENG',
+    ticker: 'DHANAM',
     name: 'Automated Equity Research Engine',
     sector: 'FinTech',
     price: '95.00',
     change: '+4.2%',
     desc: 'Proprietary 40-point scoring algorithm for valuing stocks across NSE/NYSE.',
-    tech: ['Python', 'Streamlit', 'yFinance'],
+    tech: ['Python', 'DCF', 'yFinance'],
     link: 'https://github.com/advaithparimisetti/Automated-Equity-Research-Valuation-Engine',
-    demo: 'https://automated-equity-research-valuation-engine.streamlit.app/'
+    demo: 'https://dhanam-three.vercel.app/'
   },
   {
     ticker: 'VCM-RISK', // Voluntary Carbon Market - Risk
